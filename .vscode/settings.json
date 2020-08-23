@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"C:/Users/Nyarlahotep/Documents/Unreal Projects/CppBook/.idea": true,
+		"C:/Users/Nyarlahotep/Documents/Unreal Projects/CppBook/.vs": true,
+		"C:/Users/Nyarlahotep/Documents/Unreal Projects/CppBook/.vscode": true,
+		"C:/Users/Nyarlahotep/Documents/Unreal Projects/CppBook/Content": true,
+		"C:/Users/Nyarlahotep/Documents/Unreal Projects/CppBook/Intermediate": true,
+		"C:/Users/Nyarlahotep/Documents/Unreal Projects/CppBook/Saved": true
+	}
+}

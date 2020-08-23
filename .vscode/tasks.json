@@ -1,0 +1,1949 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CppBook Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win32",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Win64",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"IOS",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Android",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook Linux Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"Linux",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Shipping",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBook LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBook LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBook",
+				"LinuxAArch64",
+				"Test",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBookEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBookEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBookEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBookEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBookEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"Debug",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBookEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"DebugGame",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppBookEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		},
+		{
+			"label": "CppBookEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppBookEditor",
+				"Linux",
+				"Development",
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Gamedev\\UE_4.24"
+			}
+		}
+	]
+}

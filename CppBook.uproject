@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CppBook",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MegascansPlugin",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "RiderLink",
+			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": false
+		}
+	]
+}

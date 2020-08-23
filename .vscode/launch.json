@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CppBook (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CppBook Win64 Debug Build",
+			"program": "C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CppBook (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CppBook Win64 DebugGame Build",
+			"program": "C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CppBook (Development)",
+			"request": "launch",
+			"preLaunchTask": "CppBook Win64 Development Build",
+			"program": "C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CppBook (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CppBook Win64 Shipping Build",
+			"program": "C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CppBook (Test)",
+			"request": "launch",
+			"preLaunchTask": "CppBook Win64 Test Build",
+			"program": "C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CppBookEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CppBookEditor Win64 Debug Build",
+			"program": "C:\\Gamedev\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject"
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CppBookEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CppBookEditor Win64 DebugGame Build",
+			"program": "C:\\Gamedev\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject"
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CppBookEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CppBookEditor Win64 Development Build",
+			"program": "C:\\Gamedev\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject"
+			],
+			"cwd": "C:\\Gamedev\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Gamedev\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Gamedev\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\Nyarlahotep\\Documents\\Unreal Projects\\CppBook\\CppBook.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Gamedev\\UE_4.24"
+		}
+	]
+}
