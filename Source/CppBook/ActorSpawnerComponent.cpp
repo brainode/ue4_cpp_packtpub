@@ -38,5 +38,6 @@ void UActorSpawnerComponent::Spawn(){
 	if(World != nullptr){
 		FTransform ComponentTransform(this->GetComponentTransform());
 		World->SpawnActor(ActorToSpawn,&ComponentTransform);
+		UE_LOG(LogTemp,Warning,TEXT("Object spawned by ActorSpawnerComponent"));
 	}
 }
